@@ -7,10 +7,7 @@
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
-  "pre-commit": [
-    "fix",
-    "lint"
-  ],
+  "pre-commit": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xlongwang/anydoor.git"
@@ -22,7 +19,8 @@
   },
   "homepage": "https://github.com/xlongwang/anydoor#readme",
   "dependencies": {
-    "eslint": "^4.14.0"
+    "eslint": "^4.14.0",
+    "handlebars": "^4.0.11"
   },
   "devDependencies": {
     "babel-eslint": "^8.1.2",
